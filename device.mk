@@ -83,6 +83,10 @@ PRODUCT_PACKAGES += \
     SweetinproWifiOverlay \
     SweetWifiOverlay
 
+# Overlay Notchbarkiller
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client
