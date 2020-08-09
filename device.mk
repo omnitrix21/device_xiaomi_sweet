@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2020-2023 The LineageOS Project
+# Copyright (C) 2024 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -347,6 +348,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client
+
+# Platform
+MSMSTEPPE := sm6150
+TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
 
 # Power
 PRODUCT_PACKAGES += \

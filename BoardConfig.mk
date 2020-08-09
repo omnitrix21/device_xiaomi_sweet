@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2020-2024 The LineageOS Project
+# Copyright (C) 2024 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -146,9 +147,6 @@ TARGET_COPY_OUT_ODM := odm
 TARGET_COPY_OUT_PRODUCT := product
 TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
-
-# Platform
-TARGET_BOARD_PLATFORM := sm6150
 
 # Power
 TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
