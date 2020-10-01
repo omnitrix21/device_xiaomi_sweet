@@ -485,4 +485,7 @@
     <string-array name="config_highRefreshRateBlacklist">
         <item>"com.netflix.mediaclient"</item>
     </string-array>
+
+    <!-- Whether device has smaller dot/u/u notch -->
+    <bool name="config_haveDotNotch">true</bool>
 </resources>
