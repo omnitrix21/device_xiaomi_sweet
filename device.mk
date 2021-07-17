@@ -226,6 +226,7 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libmm-omxcore \
+    libOmxVidcCommon \
     libstagefrighthw
 
 PRODUCT_PACKAGES += \
