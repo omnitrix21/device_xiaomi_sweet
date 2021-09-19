@@ -133,7 +133,7 @@ system_ext/lib/vendor.qti.hardware.radio.ims@1.5.so
 system_ext/lib/vendor.qti.hardware.radio.ims@1.6.so
 system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
--system_ext/priv-app/ims/ims.apk
+-system_ext/priv-app/ims/ims.apk|9bd9423a998eae93b2c94a4820459d7b33c8a51a
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -system_ext/priv-app/WfdService/WfdService.apk
 
