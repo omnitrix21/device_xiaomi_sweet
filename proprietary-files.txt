@@ -875,7 +875,7 @@ vendor/lib64/libarcsoft_hta.so
 vendor/lib64/libarcsoft_portrait_lighting_c.so
 vendor/lib64/libarcsoft_portrait_lighting.so
 vendor/lib64/libarcsoft_preview_deflicker.so
-vendor/lib64/libarcsoft_super_night_raw.so
+vendor/lib64/libarcsoft_super_night_raw.so|a725136e8fe0c9ffd6b5ed527fd480478c9fd57d
 vendor/lib64/libaudcal.so
 vendor/lib64/libaudioalsa.so
 vendor/lib64/libaudioconfigstore.so
