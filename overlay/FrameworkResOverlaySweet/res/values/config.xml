@@ -480,4 +480,9 @@
 
     <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
     <integer name="config_screenRecorderMaxFramerate">90</integer>
+    
+    <!-- The list of packages to automatically opt out of refresh rates higher than 60hz because of known compatibility issues. -->
+    <string-array name="config_highRefreshRateBlacklist">
+        <item>"com.netflix.mediaclient"</item>
+    </string-array>
 </resources>
