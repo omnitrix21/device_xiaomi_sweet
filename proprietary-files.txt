@@ -84,6 +84,9 @@ vendor/lib/soundfx/libshoebox.so
 vendor/lib/soundfx/libswgamedap.so
 vendor/lib/soundfx/libswvqe.so
 vendor/lib/libdapparamstorage.so
+-vendor/lib/soundfx/libswvqe.so
+-vendor/lib64/soundfx/libswvqe.so
+vendor/lib/libstagefright_soft_qtiflacdec.so
 
 # Audio (FX modules) - from sweetin-user 12 SKQ1.210908.001 V13.0.10.0.SKFINXM release-keys
 vendor/lib/soundfx/libdirac.so|da2c2c47da3e729dc94038cd2953e620499b1fad
