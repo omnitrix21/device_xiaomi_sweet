@@ -367,7 +367,7 @@ zygote.critical_window.minute=10
 
 # Dolby
 PRODUCT_VENDOR_PROPERTIES += \
-vendor.audio.dolby.ds2.enabled=false \
+vendor.audio.dolby.ds2.enabled=true \
 vendor.audio.dolby.ds2.hardbypass=false \
 ro.vendor.dolby.dax.version=DAX3_3.6.0.12_r1 \
 ro.vendor.product.device.db=OP_DEVICE \
