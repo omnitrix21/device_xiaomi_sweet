@@ -88,8 +88,8 @@ void vendor_load_properties() {
     if (region == "GLOBAL") {
         model = "M2101K6G";
         device = "sweet";
-        fingerprint = "Redmi/sweet_eea/sweet:13/TKQ1.221013.002/V14.0.6.0.TKFEUXM:user/release-keys";
-        description = "sweet_eea-user 13 TKQ1.221013.002 V14.0.6.0.TKFEUXM release-keys";
+        fingerprint = "Redmi/sweet_eea/sweet:13/TKQ1.221013.002/V14.0.7.0.TKFEUXM:user/release-keys";
+        description = "sweet_eea-user 13 TKQ1.221013.002 V14.0.7.0.TKFEUXM release-keys";
         mod_device = "sweet_eea_global";
         property_override("ro.boot.product.hardware.sku", "sweet");
     } else if (region == "JAPAN") {
