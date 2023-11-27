@@ -23,4 +23,9 @@
 
     <!-- Whether to show a preference item for regulatory information in About phone -->
     <bool name="config_show_regulatory_info">true</bool>
+
+    <!--  Maintainer info  -->
+    <string name="config_maintainer_name" translatable="false">Aarav</string>
+    <string name="config_maintainer_link" translatable="false">https://github.com/omnitrix21</string>
+
 </resources>
