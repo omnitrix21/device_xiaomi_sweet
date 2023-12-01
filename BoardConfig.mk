@@ -56,7 +56,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 SELINUX_IGNORE_NEVERALLOWS := true
 
 # Vendor security patch level
-VENDOR_SECURITY_PATCH := 2023-10-01
+VENDOR_SECURITY_PATCH := 2023-11-01
 
 # Inherit from proprietary files
 include vendor/xiaomi/sweet/BoardConfigVendor.mk
