@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/sweet.mk
+    $(LOCAL_DIR)/superior_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    sweet-user \
-    sweet-userdebug \
-    sweet-eng
+   superior_sweet-user \
+   superior_sweet-userdebug \
+   superior_sweet-eng
