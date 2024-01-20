@@ -264,10 +264,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/security/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
 
-# IRQ balance
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
-
 # Kernel
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
@@ -347,7 +343,7 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Perf
 PRODUCT_PACKAGES += \
-    libqti-perfd-client
+    vendor.qti.hardware.perf@2.2.vendor
 
 # Platform
 MSMSTEPPE := sm6150
@@ -355,7 +351,7 @@ TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.xiaomi-libperfmgr
+    android.hardware.power-service-qti
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
@@ -405,8 +401,6 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/google/interfaces \
-    hardware/google/pixel \
     hardware/xiaomi
 
 # Telephony
