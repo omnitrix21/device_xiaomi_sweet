@@ -341,18 +341,11 @@ PRODUCT_ENFORCE_RRO_TARGETS += *
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# Perf
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.2.vendor
-
 # Platform
 MSMSTEPPE := sm6150
 TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
 
 # Power
-PRODUCT_PACKAGES += \
-    android.hardware.power-service
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
@@ -361,6 +354,9 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat
 
 # QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist.xml \
     $(LOCAL_PATH)/configs/permissions/system_ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml
