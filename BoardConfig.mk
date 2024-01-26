@@ -62,8 +62,10 @@ LOC_HIDL_VERSION := 4.0
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/hidl/xiaomi_framework_compatibility_matrix.xml
 
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest.xml
+ODM_MANIFEST_FILES += $(DEVICE_PATH)/configs/hidl/manifest-qva.xml
 DEVICE_MANIFEST_FILE += hardware/qcom/media/conf_files/sm6150/c2_manifest.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
+
 ODM_MANIFEST_SKUS += sweet
 ODM_MANIFEST_SWEET_FILES := \
     $(DEVICE_PATH)/configs/hidl/manifest-nfc.xml
