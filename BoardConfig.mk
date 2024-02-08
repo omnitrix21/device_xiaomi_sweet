@@ -54,9 +54,6 @@ TARGET_NO_BOOTLOADER := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
-# FM
-BOARD_HAVE_QCOM_FM := true
-
 # GPS
 LOC_HIDL_VERSION := 4.0
 
