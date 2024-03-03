@@ -126,10 +126,6 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 ro.crypto.volume.metadata.method=dm-default-key
 ro.crypto.volume.options=::v2
 
-# Dalvik
-dalvik.vm.dex2oat64.enabled=true
-dalvik.vm.systemuicompilerfilter=speed
-
 # Data modules
 persist.vendor.data.iwlan.enable=true
 
@@ -153,7 +149,6 @@ debug.sf.earlyGl.app.duration=21000000
 debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
 debug.sf.treat_170m_as_sRGB=1
-ro.surface_flinger.enable_frame_rate_override=false
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.has_HDR_display=true
